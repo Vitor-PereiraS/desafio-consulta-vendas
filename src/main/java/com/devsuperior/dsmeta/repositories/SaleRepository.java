@@ -24,7 +24,7 @@ public interface SaleRepository extends JpaRepository<Sale, Long> {
         "INNER JOIN TB_SELLER se ON se.id = s.seller_id " +
         "WHERE s.date BETWEEN :startDate AND :endDate " +
         "AND (UPPER(se.name) LIKE CONCAT('%', UPPER(:sellerName), '%')) " +
-        "ORDER BY s.date ASC, s.id ASC",
+        "ORDER BY  s.id ASC",
         countQuery =
         "SELECT COUNT(*) " +
         "FROM TB_SALES s " +
