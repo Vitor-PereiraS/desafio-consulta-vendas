@@ -1,6 +1,6 @@
-# 📊 Desafio Consulta Vendas
+# 📊 API para Consulta de Vendas
 
-API REST em Java + Spring Boot para consulta de vendas e sumário por vendedor, criada como desafio prático no curso Java Spring Professional da DevSuperior.
+API REST em Java + Spring Boot para consulta de vendas e sumário por vendedor.
 
 ## 🚀 Sobre
 
